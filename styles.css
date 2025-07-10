@@ -1,4 +1,4 @@
-*  {
+* {
   font-family: sans-serif;
   color: rgb(0, 66, 123);
   box-sizing: border-box;
@@ -17,7 +17,8 @@ body {
   background-color: rgb(240, 233, 224);
 }
 
-#header, .services {
+#header,
+.services {
   display: flex;
   justify-content: space-between;
 }
@@ -39,7 +40,6 @@ body {
 #nav-bar ul {
   display: flex;
   list-style: none;
-
 }
 
 li a {
@@ -67,7 +67,7 @@ li a:active {
 
 .home-main h2 {
   font-size: 3.5rem;
-} 
+}
 
 .home-div p {
   width: 50%;
@@ -101,7 +101,8 @@ li a:active {
 }
 
 .iframe-div {
-  margin: 70px 340px;
+  margin: 2rem auto;
+  width: 90%;
 }
 
 .Product-features {
@@ -184,21 +185,32 @@ textarea {
   .home-main {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 100%;
+    align-items: center;
+    text-align: center;
   }
 
   .home-div p {
-    margin: unset;
-    width: 100%;
+    width: 90%;
+    margin-top: 1rem;
+    text-align: center;
   }
 
   .home-div {
-    width: 100vw;
-    margin-top: 5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 6rem auto 2rem auto;
+    padding: 1rem;
   }
 
   .home-main h2 {
     font-size: 3rem;
+  }
+
+  .home-main img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
   }
 
   .iframe-div {
@@ -238,7 +250,6 @@ textarea {
   main {
     display: flex;
     flex-direction: column;
-    padding: 0 1rem;
     margin: auto;
   }
 
@@ -247,7 +258,7 @@ textarea {
     flex-direction: column;
     width: 90vw;
     margin: 2rem auto;
-    margin-left: 1rem;
+    width: 90%;
   }
 }
 
@@ -265,7 +276,9 @@ textarea {
   .home-main {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 100%;
+    align-items: center;
+    text-align: center;
   }
 
   .home-div p {
@@ -274,16 +287,24 @@ textarea {
   }
 
   .home-div {
-    width: 100vw;
-    margin-top: 5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 6rem auto 2rem auto;
+    padding: 1rem;
   }
 
   .home-main h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .home-main img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
   }
 
   .iframe-div {
-    width: 100vw;
+    width: 100%;
     padding: 1rem;
     margin: 0;
   }
@@ -296,12 +317,14 @@ textarea {
   .services {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .services-2 {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid rgba(0, 0, 0, 0.302);
+    align-items: center;
   }
 
   .packages {
@@ -326,8 +349,8 @@ textarea {
   .my-form {
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 90%;
     margin: 2rem auto;
-    margin-left: 1rem;
+    width: 90%;
   }
 }
